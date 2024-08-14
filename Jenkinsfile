@@ -4,11 +4,11 @@ pipeline {
     stages {
         stage('development branch') {
             steps {
-                sh 'echo "this is developemt branch"'
+                sh 'echo "this is development branch"'
             }
         }
 
-        
+        stage('Sprint1 Application') {
             steps {
                 sh 'echo "sprint1 application"'
             }
