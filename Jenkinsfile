@@ -8,7 +8,7 @@ pipeline {
             }
         }
 
-        
+        stage('Sprint1 Application') {
             steps {
                 sh 'echo "sprint1 application"'
             }
